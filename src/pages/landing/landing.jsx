@@ -42,7 +42,6 @@ const landing = () => {
                 colors={["#FFCE4F", "#F3B30C"]}
                 trailColor={"#FFE7A842"}
                 duration={60}
-                colorsTime={[7, 5, 2, 0]}
               >
                 {({ remainingTime }) => (
                   <span className="text-white text-3xl lg:text-6xl pb-1 lg:pb-2 leading-[1] font-bold">
