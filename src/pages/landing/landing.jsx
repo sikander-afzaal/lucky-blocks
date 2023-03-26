@@ -35,7 +35,7 @@ const landing = () => {
                 rotation="counterclockwise"
                 colors={["#FFCE4F", "#F3B30C"]}
                 trailColor={"#FFE7A842"}
-                duration={604800}
+                duration={100}
                 colorsTime={[7, 5, 2, 0]}
               >
                 {({ remainingTime }) => (
