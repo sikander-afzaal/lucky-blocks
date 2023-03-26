@@ -1,0 +1,23 @@
+@font-face {
+  font-family: roca;
+  src: url("/font/roca-one-bold.woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: roca;
+  src: url("/font/roca-one-regular.woff2");
+  font-weight: 400;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .wrapper {
+    @apply flex justify-start items-center flex-col w-full;
+  }
+  .contain {
+    @apply flex w-[90%] max-w-[1200px];
+  }
+}
