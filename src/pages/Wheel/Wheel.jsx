@@ -11,6 +11,11 @@ const Wheel = () => {
   return (
     <div className="bg-[#f1deeb] w-full  min-h-screen py-20 flex justify-center items-start">
       <div className="w-[90%] max-w-[500px] overflow-visible flex justify-start  items-center flex-col gap-10">
+        <img
+          src="/logo.png"
+          className="w-full max-w-[280px] object-contain"
+          alt=""
+        />
         <div className="flex bg-purpleBg bg-cover bg-no-repeat w-full py-10 rounded-xl justify-between gap-7 items-center flex-col ">
           <h3 className="text-white font-normal text-lg lg:text-[32px]">
             Current Jackpot
@@ -22,11 +27,7 @@ const Wheel = () => {
             weekly live draw
           </h3>
         </div>
-        <img
-          src="/logo.png"
-          className="w-full max-w-[280px] object-contain"
-          alt=""
-        />
+
         <h2 className="text-dark font-normal text-[40px] text-center">
           Win Every Time <br /> Lottery
         </h2>
