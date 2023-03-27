@@ -9,28 +9,30 @@ const Wheel = () => {
   }, []);
 
   return (
-    <div className="bg-[#f1deeb] w-full  min-h-screen py-10 flex justify-center items-start">
-      <div className="w-[90%] max-w-[500px] overflow-visible flex justify-start  items-center flex-col gap-10">
-        <img
-          src="/logo.png"
-          className="w-full max-w-[280px] object-contain"
-          alt=""
-        />
-        <div className="flex bg-purpleBg bg-cover bg-no-repeat w-full py-10 rounded-xl justify-between gap-7 items-center flex-col ">
-          <h3 className="text-white font-normal text-lg lg:text-[32px]">
-            Current Jackpot
-          </h3>
-          <h2 className="text-white font-normal text-[46px] lg:text-[82px]">
-            $250
-          </h2>
-          <h3 className="text-white font-normal text-lg lg:text-[32px] capitalize">
-            weekly live draw
-          </h3>
-        </div>
+    <div className="bg-[#f1deeb] w-full  min-h-screen py-10 flex justify-center items-center">
+      <div className="w-[90%] max-w-[800px] overflow-visible flex justify-start gap-10  sm:flex-row-reverse flex-col items-center ">
+        <div className="flex justify-start items-center flex-col gap-10 w-full">
+          <img
+            src="/logo.png"
+            className="w-full max-w-[280px] object-contain"
+            alt=""
+          />
+          <div className="flex bg-purpleBg bg-cover bg-no-repeat w-full py-10 rounded-xl justify-between gap-7 items-center flex-col ">
+            <h3 className="text-white font-normal text-lg lg:text-[32px]">
+              Current Jackpot
+            </h3>
+            <h2 className="text-white font-normal text-[46px] lg:text-[82px]">
+              $250
+            </h2>
+            <h3 className="text-white font-normal text-lg lg:text-[32px] capitalize">
+              weekly live draw
+            </h3>
+          </div>
 
-        <h2 className="text-dark font-normal text-[40px] text-center">
-          Win Every Time <br /> Lottery
-        </h2>
+          <h2 className="text-dark font-normal text-[40px] text-center">
+            Win Every Time <br /> Lottery
+          </h2>
+        </div>
         <div className="relative isolate overflow-hidden">
           <img
             src="/pointer.png"
@@ -45,7 +47,7 @@ const Wheel = () => {
 
           <img
             style={{ transform: `rotate(${rotate}deg)` }}
-            className="transition-all sm:min-w-0 min-w-[600px] duration-[10s] -z-10"
+            className="transition-all sm:min-w-0 w-full min-w-[600px] duration-[10s] -z-10"
             src="/wheel.png"
             alt=""
           />
