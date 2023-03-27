@@ -30,7 +30,7 @@ const Wheel = () => {
         <h2 className="text-dark font-normal text-[40px] text-center">
           Win Every Time <br /> Lottery
         </h2>
-        <div className="relative isolate">
+        <div className="relative isolate overflow-hidden">
           <img
             src="/pointer.png"
             className="absolute top-[4%] sm:top-[5%]  z-20 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[70px]"
