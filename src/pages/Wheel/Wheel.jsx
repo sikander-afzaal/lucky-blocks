@@ -9,7 +9,7 @@ const Wheel = () => {
   }, []);
 
   return (
-    <div className="bg-[#f1deeb] w-full  min-h-screen py-20 flex justify-center items-start">
+    <div className="bg-[#f1deeb] w-full  min-h-screen py-10 flex justify-center items-start">
       <div className="w-[90%] max-w-[500px] overflow-visible flex justify-start  items-center flex-col gap-10">
         <img
           src="/logo.png"
