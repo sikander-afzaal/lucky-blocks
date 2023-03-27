@@ -21,3 +21,8 @@
     @apply flex w-[90%] max-w-[1200px];
   }
 }
+
+body,
+html {
+  overflow-x: hidden;
+}
